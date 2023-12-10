@@ -14,7 +14,8 @@ const UserSchema = new Schema({
     required: true,
   },
   active: {
-    type: String,
+    type: Boolean,
+    default: true,
     required: true,
   },
 });
